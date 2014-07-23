@@ -53,7 +53,7 @@ nav {
 	margin: 0 0 0 55px;
 	font-size: 11px;
 	height: 10px;
-	
+
 }
 nav li {
 	float: left;
@@ -87,7 +87,7 @@ nav #hovedsiden:hover {
 article {
 	height: 420px;
 	width: 600px;
-	float: right;	
+	float: right;
 }
 p.top {
 	margin-top: 120px;
@@ -277,7 +277,7 @@ article.cal {
 	font-size: 12px;
 	position: absolute;
 	width: 279px;
-	
+
 }
 .cal-left ul li {
 	background: url(../graphics/gradient.png);
@@ -290,10 +290,10 @@ article.cal {
 	box-sizing: border-box;
 }
 .cal-left ul li span {
-	text-align: center;	
+	text-align: center;
 	display: block;
 	color: #ff7800;
-	
+
 }
 .cal-left ul li span span {
 	font-size: 38px;
@@ -306,7 +306,7 @@ article.cal {
 }
 .cal-left ul li.active {
 	background: rgba(0, 0, 0, 0.8);
-	
+
 }
 .cal-left ul li.inactive,
 .cal-left ul li.inactive:hover {
@@ -375,12 +375,17 @@ article.cal h4 {
 	color: #444;
 	font-size: 12px;
 	line-height: 18px;
-	
+
 }
 .guide_inner ul li {
 	list-style: disc;
 	margin: 0 0 0 15px;
 }
+
+.guide_inner ul{
+	margin-bottom: 15px;
+}
+
 .guide ul {
 	margin: 0 0 15px 0;
 }
@@ -471,4 +476,8 @@ article.cal h4 {
 }
 .partners_steria {
 	height: 70px;
+}
+
+.partners_cxense{
+	height: 60px;
 }
