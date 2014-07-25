@@ -30,7 +30,6 @@ a:hover {
 }
 #container {
 	width: 960px;
-	height: 640px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -105,7 +104,7 @@ img.logo {
 }
 
 footer {
-	margin: 50px 0 0 0;
+	margin: 45px 0 0 0;
 	clear: both;
 	text-align: center;
 }
@@ -411,8 +410,8 @@ article.cal h4 {
 .visma {
   margin: 0 0 0 0;
 }
-#partner {
-  height: 47px;
+#main-partner {
+
 }
 
 /* Utils
@@ -436,7 +435,7 @@ article.cal h4 {
 
 
 #partners {
-	margin: 25px 0 0 0;
+	margin: 20px 0 0 0;
 }
 #partners h1 {
 	font-size: 11px;
@@ -444,8 +443,8 @@ article.cal h4 {
 	margin: 0 0 -10px 0;
 	color: rgba(255, 255, 255, 0.6);
 }
-#partners a {
-	margin: 0 35px 0 0;
+#partners img {
+	padding: 0 20px;
 }
 #partners a img {
 	opacity: 0.5;
@@ -453,9 +452,7 @@ article.cal h4 {
 #partners a:hover img {
 	opacity: 1.0;
 }
-#partners img:last-child {
-	margin: 0;
-}
+
 
 .partners_knowit {
 	height: 50px;
