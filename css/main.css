@@ -435,13 +435,14 @@ article.cal h4 {
 
 
 #partners {
-	margin: 20px 0 0 0;
+	margin: 30px 0 0 0;
+	position: relative;
 }
 #partners h1 {
 	font-size: 11px;
 	font-weight: 100;
 	margin: 0 0 -10px 0;
-	color: rgba(255, 255, 255, 0.6);
+	text-decoration: underline;
 }
 #partners img {
 	padding: 0 20px;
@@ -453,6 +454,15 @@ article.cal h4 {
 	opacity: 1.0;
 }
 
+.gold-partner {
+	position: relative;
+	top: -15px;
+}
+.partners {
+	position: relative;
+	top: -20px;
+	margin-bottom: -20px;
+}
 
 .partners_knowit {
 	height: 50px;
@@ -461,9 +471,8 @@ article.cal h4 {
 	height: 50px;
 }
 .partners_steria {
-	height: 70px;
+	height: 90px;
 }
-
 .partners_cxense{
 	height: 60px;
 }
